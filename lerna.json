@@ -1,0 +1,21 @@
+{
+  "version": "independent",
+  "packages": [
+    "packages/*",
+    "examples/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true,
+      "conventionalCommits": true,
+      "message": "chore(release): %s [skip ci]",
+      "changelogPreset": "@pragmatics/preset"
+    },
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "*.sh"
+      ]
+    }
+  }
+}

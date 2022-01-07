@@ -1,0 +1,33 @@
+{
+  "name": "@reactsmile/components",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "lib/"
+  ],
+  "scripts": {
+		"build": "tsc",
+		"start": "vite",
+    "clean": "rimraf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corlogix/reactsmile.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "corlogixco@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/corlogix/reactsmile/issues"
+  },
+  "homepage": "https://github.com/corlogix/reactsmile/blob/main/packages/components/README.md",
+	"peerDependencies": {
+		"react": ">=17.0.0",
+		"react-dom": ">=17.0.0"
+	}
+}
