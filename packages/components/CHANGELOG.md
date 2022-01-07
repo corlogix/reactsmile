@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.2](https://github.com/corlogix/reactsmile/compare/@reactsmile/components@0.0.1...@reactsmile/components@0.0.2) (2022-01-07)
+
+
+### Bug Fixes
+
+* init ([6fbd8a0](https://github.com/corlogix/reactsmile/commit/6fbd8a0da28e90fae1cb970e821fd9c3c26b5b38))
+
+
+
+
+
 ## 0.0.1 (2022-01-07)
 
 
