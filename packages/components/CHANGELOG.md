@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.1 (2022-01-07)
+
+
+### Bug Fixes
+
+* init ([42ed02f](https://github.com/corlogix/reactsmile/commit/42ed02feac1833149c5fc024f58e9cd7d182d0c5))
+
+
+
+
+
 ## [0.3.2](https://github.com/corlogix/reactsmile/compare/expressico@0.3.1...expressico@0.3.2) (2021-11-06)
 
 **Note:** Version bump only for package expressico
