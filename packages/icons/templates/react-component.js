@@ -16,7 +16,7 @@ const classNames = (...classNames: (string | Record<string, boolean>)[]): string
             if(typeof x === "object") {
                 return x[0];
             }
-            return !x;
+            return x;
         }).map(x => {
             if(typeof x === "object") {
                 return Object.keys(x)[0];
