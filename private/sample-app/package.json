@@ -1,6 +1,6 @@
 {
   "name": "sample-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "files": [
     "CHANGELOG.md",
@@ -28,6 +28,6 @@
     "react-dom": ">=17.0.0"
   },
   "dependencies": {
-    "@reactsmile/icons": "0.0.0"
+    "@reactsmile/icons": "0.0.1"
   }
 }
