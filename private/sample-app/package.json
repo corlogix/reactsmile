@@ -1,19 +1,14 @@
 {
-  "name": "@reactsmile/components",
+  "name": "sample-app",
   "version": "0.0.2",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "private": true,
   "files": [
     "CHANGELOG.md",
     "README.md",
     "lib/"
   ],
   "scripts": {
-    "build": "npm-run-all build-code",
-    "build-code": "tsc",
-    "build-styles": "node ../../toolbelt/build-styles.js components",
-    "start": "vite",
-    "clean": "rimraf lib"
+    "start": "vite"
   },
   "repository": {
     "type": "git",
@@ -31,5 +26,8 @@
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"
+  },
+  "dependencies": {
+    "@reactsmile/icons": "0.0.0"
   }
 }
