@@ -40,7 +40,7 @@ function toLower(x = "") {
         cssTemplate: path.join(templates, "css.hbs"),
         templateOptions: {
             classPrefix: "rs-",
-            baseSelector: ".icon"
+            baseSelector: ".rs-icon"
         },
         types: ['woff2', 'woff', 'eot', 'ttf', 'svg'],
         normalize: false

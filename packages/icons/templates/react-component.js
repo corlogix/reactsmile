@@ -14,7 +14,8 @@ const classNames = (...classNames: (string | Record<string, boolean>)[]): string
     classNames
         .filter(x => {
             if(typeof x === "object") {
-                return x[0];
+                const key = Object.keys(x)[0];
+                return x[key];
             }
             return x;
         }).map(x => {
